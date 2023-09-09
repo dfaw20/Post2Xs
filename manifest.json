@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Twitter Text Replacer",
+  "name": "Post to X's",
   "version": "1.0",
-  "description": "Replace 'ポスト' with 'X's on Twitter",
+  "description": "Xの「ポストする」のボタンを「X'sする」に変える",
   "permissions": ["activeTab"],
   "background": {
     "service_worker": "background.js"
