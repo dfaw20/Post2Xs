@@ -1,4 +1,3 @@
-// content.js
 
 // ページ読み込み後にテキストを置換
 replaceText();
