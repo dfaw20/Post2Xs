@@ -28,6 +28,9 @@ function replaceText() {
     if (textNode) {
       // テキストノードの内容を書き換え
       textNode.textContent = textNode.textContent.replace(/ポスト/g, "X's");
+
+      // 1回書き換えたら止める
+      observer.disconnect();
     }
   }
 }
